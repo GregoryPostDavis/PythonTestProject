@@ -1,6 +1,13 @@
 class Object:
-    def __init__(self, value):
-        self.value = value
+
+    quantity = 1
+
+    def __init__(self, name = "Item"):
+        if name:
+            self.name = name
 
     def print_value(self):
-        print("Value: ", self.value)
+        print("Value: ", self.name)
+
+    def set_quantity(self, quantity):
+        self.quantity = quantity

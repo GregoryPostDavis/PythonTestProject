@@ -25,7 +25,24 @@ if __name__ == '__main__': # This determines the "main" file and everything belo
     person3.print_person()
     person4.print_person()
 
+    #person1.giveObject(5)
+    person2.giveObject(obj)
+    person3.giveObject(Object("Gloves"))
+
+    person3.print_person()
+
+    if(input("Has your day been good, Yes or No ").lower() == "yes"):
+        print("I'm glad your day has been good!")
+    else:
+        print("I'm sorry your day wasn't good")
+
+
     #print(obj.value)
+""" this is how you make
 
+a multiline comment"""
 
+"""
+you can also do it this way
+"""
 
